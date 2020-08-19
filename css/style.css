@@ -1,0 +1,115 @@
+
+:root{
+    --font: 'Alata', sans-serif;
+    --font2: 'Merriweather', serif; 
+}
+
+body{
+    font-size: 16px;
+    /* background-color: rgba(88, 21, 21, 0.459); */
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/31/11/45/library-869061_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+main{
+    position: relative;
+    height: 100%;
+}
+#title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font);
+    color: black;
+}
+
+
+#description{
+    width: 40%;
+    display: block;
+    margin: auto;
+    font-family: var(--font2);
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    padding: 1%;
+    /* border: 2px solid black; */
+    margin-top: 1%;
+    box-sizing: border-box;
+    border-radius: 1%;
+    background-color: rgba(73, 117, 211, 0.938);
+}
+
+.name, .email, .age{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font);
+    font-size: 1.3rem;
+}
+.name label, .email label, .age label{
+    margin: 1% 0;
+}
+
+.name, .email, .age, #dropdown, .uni, .radio, .checkbox, #text{
+    margin: 1% 0;
+    
+}
+.uni{
+    font-family: var(--font);
+    font-size: 1.3rem;
+}
+
+#dropdown option{
+    font-family: var(--font);
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+}
+.radio legend{
+    margin: 1% 0;
+    font-family: var(--font);
+    font-size: 1.3rem;
+}
+.checkbox legend{
+    margin: 1% 0;
+    font-family: var(--font);
+    font-size: 1.3rem;
+}
+.opt{
+    font-family: var(--font2);
+    
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#submit{
+    display: block;
+    margin: auto;
+    width: 15%;
+    height: 40px;
+    margin-top: 2%;
+    border-radius: 1%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+img{
+    width: 150px;
+    transform: rotate(-15deg);
+    margin-left: 8%;
+    
+}
